@@ -33,8 +33,9 @@ A custom GStreamer plugin that enables cropping video frames using different geo
 ## Usage
 
 After installing, the plugin can be used in a GStreamer pipeline. You can list all properties using:
-
+```console
 gst-inspect-1.0 cropportion
+```
 
 ```console
 gst-launch-1.0 -v videotestsrc ! video/x-raw, format=NV12, width=1920, height=1080, 
