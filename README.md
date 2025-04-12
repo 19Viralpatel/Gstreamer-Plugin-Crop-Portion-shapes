@@ -4,12 +4,12 @@ A custom GStreamer plugin that enables cropping video frames using different geo
 
 ## Features
 
-- ?? Rectangle-based cropping  
-- ?? Square-based cropping  
-- ?? Circle-based cropping  
-- ?? Triangle-based cropping
-- ?? Easy integration with GStreamer pipelines  
-- ?? Simple and modular design for extensibility
+-  Rectangle-based cropping  
+-  Square-based cropping  
+-  Circle-based cropping  
+-  Triangle-based cropping
+-  Easy integration with GStreamer pipelines  
+-  Simple and modular design for extensibility
 
 ## Table of Contents
 
@@ -57,7 +57,7 @@ width: Applicable for rect and ellipse. Defines the width of the cropping area. 
 
 height: Applicable for rect, ellipse, and triangle. Defines the height of the cropping area. Example: height=200.
 
-size: Applicable for square. Sets the length of the square’s sides. Example: size=150.
+size: Applicable for square. Sets the length of the squareâ€™s sides. Example: size=150.
 
 radius: Applicable for circle. Defines the radius of the circular crop. Example: radius=100.
 
