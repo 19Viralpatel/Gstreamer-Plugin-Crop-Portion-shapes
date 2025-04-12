@@ -66,9 +66,6 @@ radius: Applicable for circle. Defines the radius of the circular crop. Example:
 base: Applicable for triangle. Specifies the base length of the triangle. Example: base=120.
 
 ## Directory Structure
-
-
-# Project Title
 Gstreamer-Plugin-Crop-Portion-shapes/
 ├── Makefile             # Build instructions
 ├── plugin/              # Plugin source code
