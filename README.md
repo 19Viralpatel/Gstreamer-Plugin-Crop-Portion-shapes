@@ -34,16 +34,18 @@ A custom GStreamer plugin that enables cropping video frames using different geo
 
 After installing, the plugin can be used in a GStreamer pipeline. You can list all properties using:
 
-gst-inspect-1.0 shape_crop
+gst-inspect-1.0 cropportion
 
+```console
 gst-launch-1.0 -v videotestsrc ! video/x-raw, format=NV12, width=1920, height=1080, 
 framerate=30/1 ! cropportion crop-coordinate=, shape-size=100, shape=square ! 
 xvimagesink hue=100 saturation=-100 brightness=100 
-
+```
+```console
 gst-launch-1.0 -v -m videotestsrc ! video/x-raw, format=NV12, width=1280, 
 height=1024, framerate=30/1 ! cropportion shape-size=150, shape=circle, fill-color=red ! 
 autovideosink 
-
+```
 
 ## Plugin Parameters
 
