@@ -67,12 +67,14 @@ base: Applicable for triangle. Specifies the base length of the triangle. Exampl
 
 ## Directory Structure
 
+
+# Project Title
 Gstreamer-Plugin-Crop-Portion-shapes/
-??? Makefile             # Build instructions
-??? plugin/              # Plugin source code
-?   ??? gstshapecrop.c   # Core plugin logic
-??? test/                # Test scripts and sample pipelines
-??? README.md            # Project documentation
+├── Makefile             # Build instructions
+├── plugin/              # Plugin source code
+│   └── gstshapecrop.c   # Core plugin logic
+├── test/                # Test scripts and sample pipelines
+└── README.md            # Project documentation
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
